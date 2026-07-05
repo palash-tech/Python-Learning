@@ -1,0 +1,19 @@
+print("Square a list using map funtion")
+l=[1,2,3,4]
+newl=map(lambda x:x*x,l)
+print(list(newl))
+
+print("Convert String list to Integer list")
+x=["10","30","60"]
+newx=map(int,x)
+print(list(newx))
+
+print("Change Lower case to upper case")
+name=["Palash","Rahul","Rohan"]
+new_name=map(str.upper,name)
+print(list(new_name))
+
+print("Add 10 in each element usin map funtion")
+l1=[10,20,30,40]
+new_l1=map(lambda x:x+10,l1)
+print(list(new_l1))
